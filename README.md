@@ -1,4 +1,4 @@
-# Generic TestWare
+# mochanium
 
 ## Recommended System Configuration
 node v6.4.0
