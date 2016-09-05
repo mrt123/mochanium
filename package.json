@@ -1,0 +1,18 @@
+{
+  "name": "mochanium",
+  "version": "1.0.0",
+  "description": "E2E test for a Generic web app",
+  "scripts": {
+    "test": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "toBeDefined"
+  },
+  "dependencies": {
+    "chai": "3.5.0",
+    "chromedriver": "2.23.1",
+    "mocha": "3.0.2",
+    "selenium-webdriver": "3.0.0-beta-2"
+  }
+}
