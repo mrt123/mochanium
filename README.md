@@ -1,21 +1,16 @@
 # Generic TestWare
-==========================================================
-
 
 ## Recommended System Configuration
---------------------------------
-node v6.4.0 or later
+node v6.4.0
 
 
 
 ## Setup
------
 ```
     $ npm install
 ```
 
 ## Run
-----------------------------
 ```
     $ npm test
 ```
@@ -40,7 +35,6 @@ node v6.4.0 or later
 
 
 ## IDE CONFIG
-----------------------------
 ### WebStorm
 * switch to ES6
 * for auto-complete add these libraries

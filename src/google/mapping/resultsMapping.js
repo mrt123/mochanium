@@ -3,19 +3,20 @@
 var ROOT_CSS = 'div#res';
 
 module.exports = {
-    getOrganicLinkLocator: getAllOrganicLinksLocator,
     getSiteLinkLocator: getSiteLinkLocator,
     getFirstOrganicLinkLocator: getFirstOrganicLinkLocator,
+    getAllOrganicLinksLocator: getAllOrganicLinksLocator
+
 };
 
-function getAllOrganicLinksLocator() {
-    return By.css(ROOT_CSS + ' div.srg div.g a');
+function getSiteLinkLocator() {
+    return By.css(ROOT_CSS + ' div.g a');
 }
 
 function getFirstOrganicLinkLocator() {
     return By.css(ROOT_CSS + ' div.srg div.g a:first-of-type');
 }
 
-function getSiteLinkLocator() {
-    return By.css(ROOT_CSS + ' div.g a');
+function getAllOrganicLinksLocator() {
+    return By.css(ROOT_CSS + ' div.srg div.g a');
 }

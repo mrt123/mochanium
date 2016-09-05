@@ -2,3 +2,4 @@ npm-debug.log
 .DS_Store   #macOS
 .idea/*
 !idea/runConfigurations
+/node_modules
