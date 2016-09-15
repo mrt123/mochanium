@@ -48,12 +48,18 @@ node v6.4.0
 
 ## Documentation
 * WebdriverJS API : http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/
-*  Selenium Tips - css selectors : https://saucelabs.com/resources/articles/selenium-tips-css-selectors
+* Webdriver Control Flow: http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/lib/promise.html
+* Selenium Tips - css selectors : https://saucelabs.com/resources/articles/selenium-tips-css-selectors
 * Mocha : https://mochajs.org
 * Chaijs : http://chaijs.com/guide/styles/
-
+* CSS Selectors to use with locators : http://www.w3schools.com/css/css_attribute_selectors.asp
 
 
 ## Side Notes
-** WebDriverIO is a good candidate to run test synchronously via its test runner, however in requires
-Java Selenium Server as it stands right now, and supports only a sub-set of WebDriver API
+* WebDriverIO is a good candidate to run test synchronously via its test runner, however is completly redundant, considering WebdriverJs asynch tasks are coordinated with Control Flow (http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/lib/promise.html). And also: 
+
+** works only on select undocumented selenium servers
+** supports only a sub-set of WebDriver API
+** compatibility with specific Node version is undocumented
+** requiresJava Selenium Server downloaded and started separately
+** website with guide is not kept up to date, and differs with gitHub readme
