@@ -47,18 +47,18 @@ node v6.4.0
 
 
 ## Documentation
-* WebdriverJS API : http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/
-* Webdriver Control Flow: http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/lib/promise.html
-* Selenium Tips - css selectors : https://saucelabs.com/resources/articles/selenium-tips-css-selectors
-* Mocha : https://mochajs.org
-* Chaijs : http://chaijs.com/guide/styles/
-* CSS Selectors to use with locators : http://www.w3schools.com/css/css_attribute_selectors.asp
+* [WebdriverJS API](http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/)
+* [Webdriver Control Flow](http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/lib/promise.html)
+* [Selenium Tips - css selectors](https://saucelabs.com/resources/articles/selenium-tips-css-selectors)
+* [Mocha](https://mochajs.org)
+* [Chaijs](http://chaijs.com/guide/styles/)
+* [CSS Selectors to use with locators](http://www.w3schools.com/css/css_attribute_selectors.asp)
 
 
 ## Side Notes
-* WebDriverIO is a good candidate to run test synchronously via its test runner, however is completly redundant, considering WebdriverJs asynch tasks are coordinated with Control Flow (http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/lib/promise.html). And also: 
+* WebDriverIO is a good candidate to run test synchronously via its test runner, however is completly redundant, considering WebdriverJs asynch tasks are coordinated with [Control Flow](http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/lib/promise.html). And also: 
 
-** works only on select undocumented selenium servers
+** works only on select undocumented selenium servers :   [example](http://stackoverflow.com/questions/34536329/webdriverio-firefox-does-not-navigate-to-url-specified)
 ** supports only a sub-set of WebDriver API
 ** compatibility with specific Node version is undocumented
 ** requiresJava Selenium Server downloaded and started separately
