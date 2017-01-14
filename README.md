@@ -7,6 +7,8 @@ node v6.4.0
 
 ## Setup
 ```
+    git clone https://github.com/mrt123/mochanium.git
+    cd mochanium
     $ npm install
 ```
 
